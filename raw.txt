@@ -1,0 +1,55 @@
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: 0
+      columns:
+        outer:
+        pinky:
+        ring:
+          key.stagger:  12
+        middle:
+          key.stagger: 7
+        index:
+          key.stagger: -6
+        inner:
+          key.stagger: -2
+        makros:
+          key.stagger: -2
+      rows:
+        
+        bottom:
+        home:
+        top:
+        number:
+    thumbfan:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-7, -40]
+      columns:
+        near:
+        home:
+          key.spread: 1.25u
+          key.splay: -10
+          key.height : 1.75u
+          key.stagger : 0.5u
+          key.origin: [-11.75, -9]
+          rows.thumb.skip : true
+          
+        far:
+          key.spread: 21.25
+          key.splay: -15
+          key.stagger : -8
+
+          key.origin: [-9.5, -9]
+      rows:
+        thumb2:
+        thumb:
+  rotate: 0
+outlines:
+  lef:
+    - where: true
+      what: rectangle
+      size: [cx + 2, cy + 2]
+
+  
