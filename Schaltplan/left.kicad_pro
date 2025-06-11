@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Schaltplan.kicad_pro",
+    "filename": "left.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -559,14 +559,26 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Beschreibung",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referenz"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -608,6 +620,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "0e6e5732-2fbb-4778-86e5-2d24eaaecb4f",
+      "Root"
+    ],
+    [
+      "8ff7967a-74ec-4254-b180-338dd7310d6b",
+      "left"
+    ],
+    [
+      "78282c65-55bd-496d-b4aa-4accfc9d816b",
+      "Led"
+    ]
+  ],
   "text_variables": {}
 }
